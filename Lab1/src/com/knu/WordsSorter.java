@@ -7,7 +7,7 @@ import java.util.*;
 public class WordsSorter {
     public static void main(String[] args) {
         File file = new File("words.txt");
-        TreeSet<String> setOfWords = new TreeSet<>();
+        TreeSet<String> setOfWords = new TreeSet<>(Comparator.comparing(String::length).thenComparing(String::compareTo));
         WordsSorter.readTheWords(file, setOfWords);
         System.out.println(String.join(", ", setOfWords));
     }
