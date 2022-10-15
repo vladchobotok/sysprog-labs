@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
+// variant 10
 public class WordsSorter {
     public static void main(String[] args) {
         File file = new File("words.txt");
