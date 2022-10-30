@@ -5,9 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 //variant 2
-
 public class TheoryOfAutomata {
-
     public static void main(String[] args) throws FileNotFoundException {
 
         int a;
